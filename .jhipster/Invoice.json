@@ -54,8 +54,9 @@
             "relationshipType": "many-to-one",
             "otherEntityName": "productOrder",
             "otherEntityRelationshipName": "invoice",
+            "relationshipValidateRules": "required",
             "relationshipName": "order",
-            "otherEntityField": "id"
+            "otherEntityField": "code"
         }
     ],
     "changelogDate": "20200422065300",
@@ -67,5 +68,7 @@
     "fluentMethods": true,
     "readOnly": false,
     "clientRootFolder": "",
-    "applications": "*"
+    "applications": "*",
+    "searchEngine": false,
+    "databaseType": "sql"
 }
